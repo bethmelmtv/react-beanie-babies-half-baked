@@ -13,7 +13,6 @@ function App() {
       const from = page * perPage - perPage;
       const to = page * perPage;
       const beanies = await getBeanieBabies(from, to);
-      console.log(beanies);
       setBeanieBabies(beanies);
     }
 
