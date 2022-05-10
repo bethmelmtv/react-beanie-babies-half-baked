@@ -7,10 +7,8 @@ export default function BeanieBaby({ id, title, image }) {
 
     <Link to={`/beanies/${id}`}>
       <div className="beanie-item">
-        <div>
-          <p>{title}</p>
-          <img src={image} />
-        </div>
+        <p>{title}</p>
+        <img src={image} />
       </div>
     </Link>
   );

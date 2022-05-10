@@ -2,7 +2,7 @@ import BeanieBaby from './BeanieBaby.js';
 
 export default function BeaniesList({ beanieBabies }) {
   return (
-    <div className="beanies">
+    <div className="beanies-list">
       {
         beanieBabies.map((beanie) => (
           <BeanieBaby key={beanie.id} {...beanie} />
