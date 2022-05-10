@@ -1,6 +1,6 @@
 body {
- background-image: url(./bg.png);
- background-size: 30%;
+  background-image: url(./bg.png);
+  background-size: 30%;
 }
 
 .App {
@@ -16,17 +16,15 @@ body {
 .beanie-baby {
   margin: 20px;
 }
-
-.beanie-baby .beanie-img {
-  width: 200px;
-}
-
-.beanies {
+.beanies-list {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  margin: 10px;
+}
+
+.beanies-list img {
+  width: 100px;
 }
 
 .beanie-detail {
@@ -53,4 +51,21 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
+}
+
+.beanie-item {
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  border: solid 2px black;
+  width: 100px;
+  height: 200px;
+}
+
+img {
+  width: 200 px;
 }
